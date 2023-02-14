@@ -1,0 +1,32 @@
+.buttonDiv {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  justify-content: flex-start;
+  padding-top: 0;
+  margin: 0;
+}
+.button {
+  padding: auto;
+  height: 50px;
+  width: 150px;
+  border-radius: 10px;
+  font-size: 25px;
+  border: none;
+}
+
+.good {
+  composes: button;
+  background: linear-gradient(#049104, #5cd384);
+  color: white;
+}
+
+.neutral {
+  composes: button;
+  background: linear-gradient(beige, rgb(212, 212, 156));
+}
+.bad {
+  composes: button;
+  background: linear-gradient(rgb(228, 50, 19), rgb(219, 132, 116));
+  color: white;
+}
