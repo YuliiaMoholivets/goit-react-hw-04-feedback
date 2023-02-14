@@ -11,13 +11,6 @@ export class App extends Component {
     bad: 0,
   };
 
-  // constructor() {
-  //   super();
-  //   this.countTotalFeedback = this.countTotalFeedback.bind(this);
-  //   this.countPositiveFeedbackPercentage =
-  //     this.countPositiveFeedbackPercentage.bind(this);
-  //   this.onLeaveFeedback = this.onLeaveFeedback.bind(this);
-  // }
   countTotalFeedback = () => {
     const { good, neutral, bad } = this.state;
     return good + neutral + bad;
