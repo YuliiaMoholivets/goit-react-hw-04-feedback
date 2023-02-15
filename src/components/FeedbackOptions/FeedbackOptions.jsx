@@ -1,7 +1,7 @@
 import React from 'react';
 import css from 'components/FeedbackOptions/FeedbackOptions.module.css';
 import PropTypes from 'prop-types';
-// import { Component } from 'react';
+
 export const FeedbackOptions = ({ onLeaveFeedback, options }) => {
   return (
     <div className={css.buttonDiv}>
